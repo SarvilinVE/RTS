@@ -36,6 +36,8 @@ public class BottomLeftPresenter : MonoBehaviour
             var color = Color.Lerp(Color.red, Color.green, selected.Health / (float)selected.MaxHealth);
             _sliderBackground.color = color * 0.5f;
             _sliderFillImage.color = color;
+
+            
         }
     }
 

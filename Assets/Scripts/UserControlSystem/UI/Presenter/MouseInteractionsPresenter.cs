@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -5,6 +6,7 @@ public class MouseInteractionsPresenter : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
     [SerializeField] private SelectableValue _selectedObject;
+    private List<ISelectable> _selectables = new List<ISelectable>();
 
     private void Update()
     {
@@ -22,5 +24,6 @@ public class MouseInteractionsPresenter : MonoBehaviour
                 .Where(c => c != null)
                 .FirstOrDefault();
         _selectedObject.SetValue(selectable);
+        _selectedObject.DrawingOutline(selectable);
     }
 }
