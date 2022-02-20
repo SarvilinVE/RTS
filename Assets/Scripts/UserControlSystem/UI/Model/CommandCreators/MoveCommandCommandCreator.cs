@@ -20,7 +20,7 @@ public class MoveCommandCommandCreator : CommandCreatorBase<IMoveCommand>
 		_creationCallback = null;
 	}
 
-	protected override void classSpecificCommandCreation(Action<IMoveCommand> creationCallback)
+	protected override void ClassSpecificCommandCreation(Action<IMoveCommand> creationCallback)
 	{
 		_creationCallback = creationCallback;
 	}

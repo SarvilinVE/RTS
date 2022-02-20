@@ -5,7 +5,7 @@ public class ProduceUnitCommandCommandCreator : CommandCreatorBase<IProduceUnitC
 {
     [Inject] private AssetsContext _context;
 
-    protected override void classSpecificCommandCreation(Action<IProduceUnitCommand> creationCallback)
+    protected override void ClassSpecificCommandCreation(Action<IProduceUnitCommand> creationCallback)
     {
         creationCallback?.Invoke(_context.Inject(new ProduceUnitCommandHeir()));
     }
