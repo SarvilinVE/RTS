@@ -7,4 +7,3 @@ public abstract class CommandExecutorBase<T> : MonoBehaviour, ICommandExecutor w
 
 	public abstract void ExecuteSpecificCommand(T command);
 }
-
