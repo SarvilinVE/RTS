@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class MainBuilding : CommandExecutorBase<IProduceUnitCommand>, ISelectable
 {
+	public Transform PivotPoint => _pivotPoint;
+	public IAttackable Target { get; }
 	public float Health => _health;
 	public float MaxHealth => _maxHealth;
 	public Sprite Icon => _icon;
 	public bool IsSelected => _isSelected;
 
 	[SerializeField] private Transform _unitsParent;
+	[SerializeField] private Transform _pivotPoint;
 
 	[SerializeField] private float _maxHealth = 1000;
 	[SerializeField] private Sprite _icon;
