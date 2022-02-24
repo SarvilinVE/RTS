@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.AI;
 
 public class MoveCommandExecutor : CommandExecutorBase<IMoveCommand>
 {
 	public override void ExecuteSpecificCommand(IMoveCommand command)
 	{
-		Debug.Log($"{name} is moving to {command.Target}!");
+		GetComponent<NavMeshAgent>().destination = command.Target;
 	}
 }
