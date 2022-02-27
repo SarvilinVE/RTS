@@ -274,7 +274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967263
   m_IsActive: 1
 --- !u!4 &71836426
 Transform:
@@ -1804,7 +1804,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &596311354
 Transform:
@@ -2473,6 +2473,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: VegetationSmall05
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f1e157661b079647ab480cf407206ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7f1e157661b079647ab480cf407206ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 7f1e157661b079647ab480cf407206ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 7f1e157661b079647ab480cf407206ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f1e157661b079647ab480cf407206ce, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2530,6 +2546,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: VegetationSmall04
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2fe21ce46fd85014590e30e91e49aedc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 2fe21ce46fd85014590e30e91e49aedc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2fe21ce46fd85014590e30e91e49aedc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 2fe21ce46fd85014590e30e91e49aedc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2fe21ce46fd85014590e30e91e49aedc, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -2586,6 +2618,22 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
       propertyPath: m_Name
       value: VegetationSmall01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 266f03476f36b2945b733736a459bf7a, type: 3}
       propertyPath: m_RootOrder
@@ -2859,7 +2907,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967263
   m_IsActive: 1
 --- !u!4 &857572153
 Transform:
@@ -3100,7 +3148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967263
   m_IsActive: 1
 --- !u!4 &1033140951
 Transform:
@@ -3838,6 +3886,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ridge02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14de1b0cd6881d94187e1deb3d02986a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 14de1b0cd6881d94187e1deb3d02986a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 14de1b0cd6881d94187e1deb3d02986a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 14de1b0cd6881d94187e1deb3d02986a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14de1b0cd6881d94187e1deb3d02986a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4183,6 +4247,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: VegetationLarge04
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4229,6 +4309,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+--- !u!1 &1585526616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+  m_PrefabInstance: {fileID: 1585526615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1585526617
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585526616}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.81, y: 3.667, z: 1.8}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 3.584, z: 0.823}
+  m_TimeToStationary: 0.5
 --- !u!1 &1672817890
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,7 +4394,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967263
   m_IsActive: 1
 --- !u!4 &1689264720
 Transform:
@@ -4622,6 +4723,22 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
       propertyPath: m_Name
       value: VegetationSmall07_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7fc7e03dc50d154eb141f19bb0ef3cb, type: 3}
       propertyPath: m_RootOrder

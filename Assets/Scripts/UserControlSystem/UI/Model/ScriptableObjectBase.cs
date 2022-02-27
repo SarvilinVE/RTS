@@ -3,12 +3,9 @@ using UnityEngine;
 
 public abstract class ScriptableObjectBase<T> : ScriptableObject, IAwaitable<T>
 {
-    public class NewValueNotiffer<TAwaited> : IAwaiter<TAwaited>
+    public class NewValueNotiffer<TAwaited> : AwaiterBase<TAwaited>
     { 
         private readonly ScriptableObjectBase<TAwaited> _scriptableObjectBase;
-        private TAwaited _result;
-        private Action _continuation;
-        private bool _isCompleted;
 
         public NewValueNotiffer(ScriptableObjectBase<TAwaited> scriptableObjectBase)
         {
@@ -18,30 +15,8 @@ public abstract class ScriptableObjectBase<T> : ScriptableObject, IAwaitable<T>
         private void onNewValue(TAwaited obj)
         {
             _scriptableObjectBase.OnNewValue -= onNewValue;
-            _result = obj;
-            _isCompleted = true;
-            _continuation?.Invoke();
+            onWaitFinish(obj);
         }
-
-        public void OnCompleted(Action continuation)
-        {
-            if (_isCompleted)
-                continuation?.Invoke();
-            else
-                _continuation = continuation;
-        }
-
-        TAwaited IAwaiter<TAwaited>.GetResult()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsCompleted => _isCompleted;
-        public TAwaited GetResult => _result;
-
-        
-
-
     }
     public T CurrentValue { get; private set; }
     public Action<T> OnNewValue;
