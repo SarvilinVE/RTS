@@ -21,7 +21,7 @@ public abstract class ScriptableObjectBase<T> : ScriptableObject, IAwaitable<T>
     public T CurrentValue { get; private set; }
     public Action<T> OnNewValue;
 
-    public void SetValue(T value)
+    public virtual void SetValue(T value)
     {
         CurrentValue = value;
         OnNewValue?.Invoke(value);

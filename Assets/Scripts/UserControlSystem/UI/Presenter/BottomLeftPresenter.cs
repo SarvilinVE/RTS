@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
+using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using Zenject;
 
 public class BottomLeftPresenter : MonoBehaviour
 {
@@ -12,12 +12,11 @@ public class BottomLeftPresenter : MonoBehaviour
     [SerializeField] private Image _sliderBackground;
     [SerializeField] private Image _sliderFillImage;
 
-    [SerializeField] private SelectableValue _selectedValue;
+    [Inject] private SelectableValue _selectedValues;
 
     private void Start()
     {
-        _selectedValue.OnNewValue += onSelected;
-        onSelected(_selectedValue.CurrentValue);
+        _selectedValues.Subscribe(onSelected);
     }
 
     private void onSelected(ISelectable selected)
